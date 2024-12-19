@@ -6,7 +6,7 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    repo: https://github.com/MatyDiop/static_site_render.git
+    repo: https://github.com/MatyDiop/render_project.git
     envVars:
       - key: DATABASE_URL
         fromDatabase:
